@@ -245,7 +245,7 @@ In order to enable webhooks, fork source code repos to use them in pipelines:
 
 * [vote-api](https://github.com/blues-man/pipelines-vote-api)
 * [vote-ui](https://github.com/blues-man/pipelines-vote-ui)
-* [vote-ui](https://github.com/blues-man/vote-app-gitops)
+* [vote-app-gitops](https://github.com/blues-man/vote-app-gitops)
 
   Note: for `vote-app-gitops` repo, you need to create a branch called `develop` in order for the dev pipeline to update
   kustomize deployment resources.
@@ -275,6 +275,7 @@ oc create -f k8s/triggertemplate.yaml
 oc create -f k8s/triggerbinding.yaml
 oc create -f k8s/eventlistener.yaml
 oc create -f k8s/el-route.yaml
+oc create -f k8s/service.yaml
 ```
 
 
@@ -304,6 +305,7 @@ oc create -f k8s/triggertemplate.yaml
 oc create -f k8s/triggerbinding.yaml
 oc create -f k8s/eventlistener.yaml
 oc create -f k8s/el-route.yaml
+oc create -f k8s/service.yaml
 ```
 
 ## Demo flow
