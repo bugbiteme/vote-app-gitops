@@ -245,9 +245,13 @@ In order to enable webhooks, fork source code repos to use them in pipelines:
 
 * [vote-api](https://github.com/blues-man/pipelines-vote-api)
 * [vote-ui](https://github.com/blues-man/pipelines-vote-ui)
+* [vote-ui](https://github.com/blues-man/vote-app-gitops)
+
+  Note: for `vote-app-gitops` repo, you need to create a branch called `develop` in order for the dev pipeline to update
+  kustomize deployment resources.
 
 
-4. Clone vote-api repo
+5. Clone vote-api repo
 
 
 ```bash
@@ -255,7 +259,7 @@ git clone https://github.com/blues-man/pipelines-vote-api
 cd pipelines-vote-api
 ```
 
-5. Create Tekton pipeline manifests
+6. Create Tekton pipeline manifests
 
 Change the GitOps repo to your fork:
 ```bash
