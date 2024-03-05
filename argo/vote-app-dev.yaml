@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: vote-app-dev
-  namespace: openshift-gitops
+  namespace: default
 spec:
   destination:
     namespace: vote-app-dev
