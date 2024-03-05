@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - ../../k8s/
 images:
-- digest: sha256:259c0873164849eb7f89df45dba3a2116122635c005a7e7f15cdaaa35f313c65
+- digest: sha256:c6a10644d00d6096c60a5d4696e47a9fcfb2bef42906059d981973de9c4060e2
   name: quay.io/llevy/vote-api
   newName: quay.io/llevy/vote-api
 - digest: sha256:72b25695f3b348f1503324f443e995688162a8991d401f5a48214ef2c3e3a66e
