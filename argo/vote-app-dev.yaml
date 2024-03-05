@@ -11,7 +11,7 @@ spec:
   source: 
     path: environments/dev
     repoURL: https://github.com/bugbiteme/vote-app-gitops
-    targetRevision: main
+    targetRevision: develop
   syncPolicy: 
     automated:
       prune: true
