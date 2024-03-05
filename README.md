@@ -172,10 +172,10 @@ In the Red Hat OpenShift DevSpaces pop-up window, click the **Install** button.
 
 ![CRW](images/codeready-installation.png)
 
-On the Install Operator screen, leave default option:
+On the Install Operator screen, leave the default options:
 
-* Installation mode: A specific project on the cluster
-* Installed Namespace: Pick an existing project → openshift-workspaces
+* Installation mode: All namespaces on the cluster (default)
+* Installed Namespace: Operator recommended Namespace: Project (PR) openshift-operators
 
 ##### Creating an instance of OpenShift DevSpaces
 
@@ -189,9 +189,9 @@ The Create CheCluster page contains the configuration of the overall OpenShift D
 
 To create the codeready-workspaces cluster, click the **Create** button in the lower left corner of the window.
 
-On the Operator Details screen, in the Red Hat OpenShift DevSpaces Cluster tab, click on the codeready-workspaces link.
+On the Operator Details screen, in the Red Hat OpenShift Dev Spaces instance Specification tab, click on the (CC) devspaces link.
 
-To navigate to the codeready-workspaces instance, click the link under Red Hat OpenShift DevSpaces URL.
+To navigate to the devspaces instance, click the link under Red Hat OpenShift DevSpaces URL on the right of the screen.
 
 NOTE
 The installation might take more than 5 minutes. The URL appears after the Red Hat OpenShift DevSpaces installation finishes.
